@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1F2029;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 18px;
+  position: relative;
+  float: left;
+  width: 100%;
+  
+}
+
+p {
+  color: #fff;
+font-family: 'Courier Prime', monospace;
+}
+
+strong {
+  color: #09faff;
+}
+
+a.lol {
+        
+        
+        font-family:'Inconsolata', 'Helvetica', 'Arial',         sans-serif;
+        font-size: inherit;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        text-decoration:none;
+        
+        border: 4px solid #F71735 ;
+        color: #3C14D0  ! important;
+        background: #fdfd96;
+        outline: none;
+        
+        position: relative;
+        display: inline-block;
+        padding: 15px 10px 14px;
+        cursor: pointer;
+        width: auto;
+            }
+a.lol:after {
+        
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        
+        border: 2px solid #F71735;
+        background-color: #F71735;
+        
+        left: 4px;
+        top: 4px;
+        
+        z-index: -1;
+        content: '';
+    
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        
+         }
+a.lol:hover {
+          top:2px;
+          left:2px;
+            }
+ a.lol:hover:after   {
+         top: -2px;
+         left: -2px;
+            }
+li {
+  color: #FFF;
+    font-family: 'Courier Prime', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  text-align: left;
+  line-height: 1.4em;
+  max-width: 60%;
+  margin: 0em auto 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    max-width: 90%;
+  }
+}
+
+.main h1 {
+  
+font-family: 'Overpass Mono', monospace;
+  font-weight: 600;
+  font-size: 13vw;
+  white-space: nowrap;
+  color: #FFF;
+  margin: 0.8em auto 0.8em;
+}
+
+.main h3 {
+    font-family: 'Bree Serif', serif;
+  font-weight: 600;
+  font-size: 2vw;
+  white-space: nowrap;
+  color: #FFF;
+  margin: 0.8em auto 0.8em;
+}
+
+@media screen and (min-width: 530px) {
+  .main h1 {
+    font-size: 70px;
+  }
+}
+
+.main h2 {
+  font-family: 'Overpass Mono', monospace;
+    font-weight: 600;
+  margin: 1.25em auto 0.5em;
+    color: #f4ff00;
+}
+
+.main ul {
+  list-style: none;
+}
+
+.main li {
+  margin: 0.5em 0em;
+  color: #fff;
+}
+
+
+.about a {
+  color: rgb(0, 255, 191);
+}
+
+.contact a {
+  color: #FFBF00;
+}
+
+.hire a {
+  color: #09faff;
+}
+
+.projects a {
+  color: rgb(58, 255, 0, 0.9);
+}
+
+.projects strong {
+ color: rgb(58, 255, 0, 0.9);
+}
+
+.work a {
+  color: #56f8d5;
+}
+
+.client-work a {
+  color: #ff32a1;
+}
+
+
+body.nice-colors {
+  background: #430A58;
+}
+
+
+
+body.nice-colors .under-link:hover {
+  cursor: pointer;
+  background-size: 100% 100%;
+  background-image: linear-gradient(180deg, transparent 90%, #ffd1dc 0);
+}
+
+
+@media screen and (min-width: 1680px) {
+  body {
+    font-size: 26px;
+  }
+}
